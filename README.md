@@ -1,6 +1,6 @@
 # ARMS: Antithetic-REINFORCE-Multi-Sample Gradient for Binary Variables
 -----
-This is the official code repository for ICML 2021 paper: ARMS: Antithetic-REINFORCE-Multi-Sample Gradient for Binary Variables
+This is the official code repository for ICML 2021 paper: *ARMS: Antithetic-REINFORCE-Multi-Sample Gradient for Binary Variables*
 by Alek Dimitriev and Mingyuan Zhou.
 
 Full paper: [https://arxiv.org/pdf/2105.14141.pdf](https://arxiv.org/pdf/2105.14141.pdf)
@@ -17,6 +17,9 @@ python3 -m experiment_launcher \
     --demean_input \
     --initialize_with_bias \
 ```
-Support datasets are Dynamic MNIST, Fashion MNIST, and Omniglot, with either a linear or nonlinear encoder/decoder pair. 
-Supported gradients are ARM, DisARM, LOORF, RELAX and ARMS (Dirichlet copula) and ARMS_Normal (Gaussian copula). 
+Supported datasets: Dynamic MNIST, Fashion MNIST, and Omniglot, with either a linear or nonlinear encoder/decoder pair. 
 
+Supported gradients: ARM, DisARM, LOORF, RELAX and ARMS (Dirichlet copula) and ARMS_Normal (Gaussian copula). 
+
+The figure below can be reproduced by running *python toy_problem.py*.
+![toy_variance](fig/toy_problem.png)
