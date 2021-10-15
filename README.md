@@ -1,7 +1,25 @@
 # ARMS: Antithetic-REINFORCE-Multi-Sample Gradient for Binary Variables
 -----
 This is the official code repository for ICML 2021 paper: *ARMS: Antithetic-REINFORCE-Multi-Sample Gradient for Binary Variables*
-by Alek Dimitriev and Mingyuan Zhou.
+by Alek Dimitriev and Mingyuan Zhou. 
+
+If you use the code in this repository please correspondingly cite the paper:
+```
+@inproceedings{dimitriev2021arms,
+  title = {ARMS: Antithetic-REINFORCE-Multi-Sample Gradient for Binary Variables},
+  author = {Dimitriev, Alek and Zhou, Mingyuan},
+  booktitle = {ICML: International Conference on Machine Learning},
+  pages = {2717--2727},
+  year = {2021},
+  editor = {Meila, Marina and Zhang, Tong},
+  volume = {139},
+  series = {Proceedings of Machine Learning Research},
+  month = jul,
+  publisher = {PMLR},
+  pdf = {https://arxiv.org/pdf/2105.14141.pdf},
+  url = {https://proceedings.mlr.press/v139/dimitriev21a.html},
+}
+```
 
 Full paper: [https://arxiv.org/pdf/2105.14141.pdf](https://arxiv.org/pdf/2105.14141.pdf)
 
